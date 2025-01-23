@@ -1,8 +1,6 @@
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-import hello.HelloWorld;
-
 public class Deque<Item> implements Iterable<Item> {
     private Node headPointer;
     private Node tailPointer;
